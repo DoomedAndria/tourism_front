@@ -13,7 +13,7 @@ export default function CardsByGallery(props) {
     }
 
     useEffect(()=>{
-        Axios.get('http://localhost:3001/api/cards').then((response)=>{
+        Axios.get('https://website3256.herokuapp.com/api/cards').then((response)=>{
             setCards(response.data.filter(isValid))
         })
     },[])

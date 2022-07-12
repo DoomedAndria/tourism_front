@@ -8,7 +8,7 @@ export default function Gallery(props) {
     const[gallery,set_gallery] = useState([])
 
     useEffect(()=>{
-        Axios.get('http://localhost:3001/api/gallery').then((response)=>{
+        Axios.get('https://website3256.herokuapp.com/api/gallery').then((response)=>{
             set_gallery(response.data)
         })
     },[])

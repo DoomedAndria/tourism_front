@@ -12,7 +12,7 @@ export default function Register(props) {
     const[password,set_password] = useState('')
 
     const submit = ()=>{
-        Axios.post('http://localhost:3001/api/users/insert',{
+        Axios.post('https://website3256.herokuapp.com/api/users/insert',{
             name:name,
             surname:surname,
             phone_number:phone_number,
