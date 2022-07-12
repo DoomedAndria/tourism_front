@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tourism_front/static/css/main.e3478492.css",
+    "main.js": "/tourism_front/static/js/main.0a2046d3.js",
+    "static/media/vid-2.mp4": "/tourism_front/static/media/vid-2.e734bbbe6eea80af77db.mp4",
+    "static/media/logo.png": "/tourism_front/static/media/logo.8d0e0c8d5801d6aceb80.png",
+    "static/media/contactme_deco.png": "/tourism_front/static/media/contactme_deco.40b7b55f54bc5bc0f421.png",
+    "index.html": "/tourism_front/index.html",
+    "main.e3478492.css.map": "/tourism_front/static/css/main.e3478492.css.map",
+    "main.0a2046d3.js.map": "/tourism_front/static/js/main.0a2046d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3478492.css",
+    "static/js/main.0a2046d3.js"
+  ]
+}
