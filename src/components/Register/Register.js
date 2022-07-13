@@ -12,15 +12,17 @@ export default function Register(props) {
     const[password,set_password] = useState('')
 
     const submit = ()=>{
-        Axios.post('https://website3256.herokuapp.com/api/users/insert',{
-            name:name,
-            surname:surname,
-            phone_number:phone_number,
-            email:email,
-            password:password
-        }).then(()=>{
-            alert('succesful insertion')
-        })
+        try {
+            Axios.post('https://website3256.herokuapp.com/api/users/insert', {
+                name: name,
+                surname: surname,
+                phone_number: phone_number,
+                email: email,
+                password: password
+            })
+        }catch (error){
+            console.log(error)
+        }
     }
     return(
         <div className="register-overlay">
