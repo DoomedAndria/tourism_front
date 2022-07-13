@@ -28,7 +28,7 @@ export default function Register(props) {
         <div className="register-overlay">
             <div className="form-container">
                 <button className="close-button" onClick={()=>{props.close()}} > X </button>
-                <form action="">
+                <form action="" method="POST">
 
                     <h2>{props.lang==="en"?"register":"რეგისტრაცია"}</h2>
 
