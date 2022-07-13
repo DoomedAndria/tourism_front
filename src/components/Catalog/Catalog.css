@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #dbf1ff;
     padding: 0;
     align-items: center;
     justify-content: center;
@@ -10,10 +9,11 @@
 .title{
     display: flex;
     justify-content: center;
-    background-color: #dbf1ff;
-    color: #FF5403;
+    color: #215c5b;
 }
 #catalog{
+    background: rgb(239,254,253);
+    background: linear-gradient(62deg, rgba(239,254,253,1) 0%, rgba(255,255,255,1) 100%);
     padding-top: 100px;
     background-color: #dbf1ff;
 }
@@ -21,8 +21,9 @@
 #catalog select{
     padding: 5px;
     border-radius: 5px;
-    border: #d6792d 2px solid;
-    background-color: #faecb3;
+    border: none;
+    background-color: #eeffff;
+    color: #3aafa9;
     cursor: pointer;
     margin-left: 120px;
 }

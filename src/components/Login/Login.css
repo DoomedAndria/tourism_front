@@ -13,12 +13,13 @@
 }
 
 .form-container{
+    border: none;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(230deg, rgba(163,198,255,1) 29%, rgba(255,230,154,1) 100%);
-    border: #2d90d6 2px solid;
+    background: #e1f6f5;
     border-radius: 5px;
     padding: 10px;
+    font-weight: 600;
 }
 
 
@@ -33,7 +34,7 @@
 form button{
     border-radius: 5px;
     cursor: pointer;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 15px;
     outline: none;
     width: auto;
@@ -41,25 +42,33 @@ form button{
     padding: 6px 13px 6px 13px;
     margin-bottom: 10px;
     text-align: center;
-    background-color: #2d90d6;
+    background-color: #3aafa9;
     color: #fff;
 }
 
+.form-container input{
+    border: none;
+    padding-left: 7px;
+}
+
 .close-button{
-    width: 20px;
-    height: 20px;
-    background-color: #f84040;
-    color: white;
-    font-weight: 900;
-    border-radius: 3px;
+    width: 50px;
+    height: 25px;
+    background-color: #ffffff;
+    border: 1px solid #f84040;
+    color: #f84040;
+    font-weight: 100;
+    border-radius: 4px;
+    padding-bottom: 5px;
     position: relative;
-    left: 94%;
+    left: 84%;
     top: 0;
     cursor: pointer;
 }
 
 .close-button:hover{
-    background-color: #c70303;
+    background-color: #f84040;
+    color: #ffffff;
 }
 
 form h2{
@@ -69,12 +78,11 @@ form h2{
 form input{
     width: 100%;
     height: 30px;
-    border: #2d90d6 2px solid;
     border-radius: 5px;
-    background-color: #dbf1ff;
+    background-color: #ffffff;
     margin-bottom: 20px;
 }
 form button:hover,
 form button:focus{
-    background-color: rgb(0, 99, 170)
+    background-color: #1b3a39;
 }

@@ -11,10 +11,10 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     border-radius: 10px;
     padding: 10px;
-    color: rgb(0, 99, 170);
+    color: #1b3a39;
 }
 .card-container h2{
-    color: #FF5403;
+    color: #3aafa9;
 }
 .description, .img{
     width: 100%;
@@ -43,15 +43,16 @@
 }
 
 .buy{
-    color: #FF5403;
+    color: #3aafa9;
     width: 100%;
     justify-content: left;
 }
 
 .buy button{
-    padding: 7px;
-    color: rgb(226, 150, 10);
-    background-color: rgb(255, 230, 154);
+    padding: 4px;
+    color: #3aafa9;
+    background-color: #ffffff;
+    border: 1px solid #3aafa9;
     margin-top: 5px;
     transition: all 0.25s;
     cursor: pointer;
@@ -59,6 +60,6 @@
 }
 
 .buy button:hover{
-    background-color: #FF5403;
+    background-color: #3aafa9;
     color: white;
 }

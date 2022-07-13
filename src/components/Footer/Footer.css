@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 .footer-container{
-    background-color: rgb(163, 198, 255);
-
+    background: rgba(228,239,231,1);
+    color: black;
+    border-top: 2px solid #3aafa9;
 }
 
 .row{
@@ -32,7 +33,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    background-color: rgba(137, 156, 183, 0.87);
+    background-color: #bad7d5;
 
 }
 .sub-footer div{
@@ -54,11 +55,11 @@
 }
 
 .footer-container a{
-  color: rgb(0, 84, 145);
+  color: #215c5b;
 }
 
 .footer-container a:hover{
-    color: rgb(0, 41, 72);
+    color: #3aafa9;
 }
 #useful-links li{
     display: flex;
@@ -70,7 +71,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #696767;
+    background-color: #82adaa;
     border-radius: 15px;
     cursor: pointer;
     margin-right: 10px;

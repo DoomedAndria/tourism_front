@@ -4,10 +4,12 @@
     align-items: center;
     width: 100%;
     padding-top: 60px;
-    background-color: #dbf1ff;
-    color: #FF5403;
+    padding-bottom: 60px;
+    background: rgb(239,254,253);
+    background: linear-gradient(62deg, rgba(239,254,253,1) 0%, rgba(255,255,255,1) 100%);
+    color: #215c5b;
 }
-
+/*rgba(255,230,154,1)*/
 .gallery-cards{
     border-radius: 10px;
     padding: 50px;
@@ -17,6 +19,6 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: linear-gradient(230deg, rgba(163,198,255,1) 29%, rgba(255,230,154,1) 100%);
+    background: #e1f6f5;
 
 }

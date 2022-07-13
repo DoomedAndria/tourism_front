@@ -19,7 +19,7 @@ export default function ContactMe(props) {
 
     return(
         <div id="contactme" className="contact-me">
-            <h1>{props.lang === "en"?"Contact Me":"დამიკავშირდი"}</h1>
+            <h1>{props.lang === "en"?"Contact Me":"კონტაქტი"}</h1>
             <div className="contact-me-container">
                 <div className="image">
                     <img src={deco} alt="decoration"/>
