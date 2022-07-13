@@ -11,7 +11,8 @@ export default function Register(props) {
     const[email,set_email] = useState('')
     const[password,set_password] = useState('')
 
-    const submit = ()=>{
+    const submit = (e)=>{
+        e.preventDefault();
         try {
             Axios.post('https://website3256.herokuapp.com/api/users/insert', {
                 name: name,
