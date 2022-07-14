@@ -30,8 +30,9 @@ export default function Navbar (props){
                         <button onClick={props.openLogin} className="signin">{lang==="en"?"Sign in":"შესვლა"}</button>
                         <button onClick={props.openRegister} className="register">{lang==="en"?"Register":"რეგისტრაცია"}</button>
                     </div>
+
+
                 </div>
-                <hr></hr>
                 <ul style={{left: `${!opened ? '0': '-100%'}`}}>
 
                     <li><a href="/">{lang==="en"?"Home":"მთავარი"}</a></li>

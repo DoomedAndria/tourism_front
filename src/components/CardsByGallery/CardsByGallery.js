@@ -20,8 +20,6 @@ export default function CardsByGallery(props) {
 
     return(
         <div>
-            <div id="catalog" className="title">
-            </div>
             <div className="grid">
                 {cards.map((card)=>{
                     return <Card lang={props.lang} data={card}/>

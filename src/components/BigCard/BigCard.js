@@ -24,8 +24,6 @@ export default function BigCard(props) {
 
     return(
         <>
-            <div className="empty-space"></div>
-
             <div className="bigcard-container">
                 <h1>{props.lang === "en" ? location.state.title_en : location.state.title_ge}</h1>
                 <div>
@@ -49,11 +47,11 @@ export default function BigCard(props) {
                     </div>
                 </div>
 
-                <div>
-                    <div className="button-container">
-                        <button>BOOK NOW</button>
-                    </div>
-                </div>
+                {/*<div>*/}
+                {/*    <div className="button-container">*/}
+                {/*        <button>BOOK NOW</button>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
         </>
     )
