@@ -52,11 +52,11 @@ function App() {
 
                         <Route exact path="/gallery_cards" element={<CardsByGallery lang={lang}/>}/>
 
-                        <Route exact path="/catalog" element={<Catalog lang={lang}/>}/>
+                        {/*<Route exact path="/catalog" element={<Catalog lang={lang}/>}/>*/}
 
-                        <Route exact path="/contact_me" element={<ContactMe lang={lang}/>}/>
+                        {/*<Route exact path="/contact_me" element={<ContactMe lang={lang}/>}/>*/}
 
-                        <Route exact path="/gallery" element={<Gallery lang={lang}/>}/>
+                        {/*<Route exact path="/gallery" element={<Gallery lang={lang}/>}/>*/}
 
                     </Routes>
                 </Router>

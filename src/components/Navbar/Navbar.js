@@ -38,12 +38,12 @@ export default function Navbar (props){
                 <ul style={{left: `${!opened ? '0': '-100%'}`}}>
 
                     <li><a onClick={()=>{navigate("/")}}>{lang==="en"?"Home":"მთავარი"}</a></li>
-                    {/*<li><Link className="a" to="gallery" spy={true} smooth={true} offset={-80} duration={500} delay={100} >{lang==="en"?"gallery":"გალერეა"}</Link></li>*/}
-                    <li><a onClick={()=>{navigate("/gallery",{state:{lang:lang}})}}>{lang==="en"?"gallery":"გალერეა"}</a></li>
-                    {/*<li><Link className="a" to="catalog" spy={true} smooth={true} offset={-80} duration={500} delay={100} >{lang==="en"?"catalog":"კატალოგი"}</Link></li>*/}
-                    <li><a onClick={()=>{navigate("/catalog")}}>{lang==="en"?"catalog":"კატალოგი"}</a></li>
-                    {/*<li><Link className="a" to="contactme" spy={true} smooth={true} offset={-80} duration={500} delay={100} >{lang==="en"?"contact me":"კონტაქტი"}</Link></li>*/}
-                    <li onClick={()=>{navigate("/contact_me")}}><a>{lang==="en"?"contact me":"კონტაქტი"}</a></li>
+                    <li><Link className="a" to="gallery" spy={true} smooth={true} offset={-80} duration={500} delay={100} >{lang==="en"?"gallery":"გალერეა"}</Link></li>
+                    {/*<li><a onClick={()=>{navigate("/gallery",{state:{lang:lang}})}}>{lang==="en"?"gallery":"გალერეა"}</a></li>*/}
+                    <li><Link className="a" to="catalog" spy={true} smooth={true} offset={-80} duration={500} delay={100} >{lang==="en"?"catalog":"კატალოგი"}</Link></li>
+                    {/*<li><a onClick={()=>{navigate("/catalog")}}>{lang==="en"?"catalog":"კატალოგი"}</a></li>*/}
+                    <li><Link className="a" to="contactme" spy={true} smooth={true} offset={-80} duration={500} delay={100} >{lang==="en"?"contact me":"კონტაქტი"}</Link></li>
+                    {/*<li onClick={()=>{navigate("/contact_me")}}><a>{lang==="en"?"contact me":"კონტაქტი"}</a></li>*/}
 
                     <li>
                         <div className="hid-but">

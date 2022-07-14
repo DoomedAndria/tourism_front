@@ -15,6 +15,7 @@ export default function CardsByGallery(props) {
     useEffect(()=>{
         Axios.get('https://website3256.herokuapp.com/api/cards').then((response)=>{
             setCards(response.data.filter(isValid))
+            console.log(cards)
         })
     },[])
 
