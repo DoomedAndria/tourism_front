@@ -8,6 +8,10 @@ import Main from "./components/Main"
 import BigCard from "./components/BigCard/BigCard"
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom"
 import CardsByGallery from "./components/CardsByGallery/CardsByGallery";
+import Catalog from "./components/Catalog/Catalog";
+import ContactMe from "./components/ContactMe/ContactMe";
+import Gallery from "./components/Gallery/Gallery";
+import Home from "./components/Home/Home";
 
 
 function App() {
@@ -19,33 +23,40 @@ function App() {
     return (
 
             <div className="App">
-                <Navbar setLan={(l)=>{
-                      setLang(l)
-                }}
-                openLogin={()=>{
-                    setOpenLogin(true)
-                }}
-                openRegister={()=>{
-                    setOpenRegister(true)
-                }}/>
-
-                {openLogin && <Login close={() => {
-                    setOpenLogin(false)
-                }}
-                lang={lang}/>}
-
-                {openRegister && <Register close={() => {
-                    setOpenRegister(false)
-                }}
-                lang={lang}/>}
                 <Router>
+                    <Navbar setLan={(l)=>{
+                          setLang(l)
+                    }}
+                    openLogin={()=>{
+                        setOpenLogin(true)
+                    }}
+                    openRegister={()=>{
+                        setOpenRegister(true)
+                    }}/>
+
+                    {openLogin && <Login close={() => {
+                        setOpenLogin(false)
+                    }}
+                    lang={lang}/>}
+
+                    {openRegister && <Register close={() => {
+                        setOpenRegister(false)
+                    }}
+                    lang={lang}/>}
+
                     <Routes>
 
                         <Route exact path="/" element={<Main lang={lang}/>}/>
 
                         <Route exact path="/full_card" element={<BigCard lang={lang}/>}/>
 
-                        <Route exact path="/gallery" element={<CardsByGallery lang={lang}/>}/>
+                        <Route exact path="/gallery_cards" element={<CardsByGallery lang={lang}/>}/>
+
+                        <Route exact path="/catalog" element={<Catalog lang={lang}/>}/>
+
+                        <Route exact path="/contact_me" element={<ContactMe lang={lang}/>}/>
+
+                        <Route exact path="/gallery" element={<Gallery lang={lang}/>}/>
 
                     </Routes>
                 </Router>

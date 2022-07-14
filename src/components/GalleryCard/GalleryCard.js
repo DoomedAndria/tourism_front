@@ -7,7 +7,7 @@ export default function GalleryCard(props) {
 
     return(
         <div className="gallery-card" onClick={()=>{
-            navigate("/gallery",{state:{id: props.gallery_card.id}})
+            navigate("/gallery-cards",{state:{id: props.gallery_card.id}})
         }}>
             <div className="gallery-img">
                 <img src={props.gallery_card.image}/>

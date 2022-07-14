@@ -10,7 +10,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 60px;
+    /*padding-top: 60px;*/
+    padding: 60px 0 0 0;
 
 }
 
@@ -49,7 +50,7 @@
 .bigcard-extended{
     padding: 20px;
     height: 400px;
-    width: 900px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     background: rgb(228,239,231);
@@ -62,7 +63,7 @@
 
 .bigcard-description{
     padding: 20px;
-    width: 1520px;
+    width: 1280px;
     border-radius: 10px;
     background: rgb(228,239,231);
     background: linear-gradient(180deg, rgba(228,239,231,1) 0%, rgba(253,250,246,1) 100%);
@@ -83,8 +84,8 @@
 
 .bigcard-container div button{
     padding: 20px;
-    color: rgb(226, 150, 10);
-    background-color: rgb(255, 230, 154);
+    color: #ffffff;
+    background-color: #3aafa9;
     margin-top: 5px;
     transition: all 0.25s;
     cursor: pointer;
@@ -94,5 +95,5 @@
 
 .bigcard-container div button:hover{
     color: white;
-    background-color: #FF5403;
+    background-color: #215c5b;
 }

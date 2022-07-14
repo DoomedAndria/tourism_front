@@ -47,11 +47,11 @@ export default function BigCard(props) {
                     </div>
                 </div>
 
-                {/*<div>*/}
-                {/*    <div className="button-container">*/}
-                {/*        <button>BOOK NOW</button>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
+                <div>
+                    <div className="button-container">
+                        <button>BOOK NOW</button>
+                    </div>
+                </div>
             </div>
         </>
     )
